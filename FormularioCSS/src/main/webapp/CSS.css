@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.fondogris{
+	background: lightgrey;
+}
+.fondonaranja{
+	background: #F2C288;
+}
+.fondorojo{
+	background: #B67776;
+}
+.tamaño{
+	font-size: 15q;
+}
+.DatosP{
+	background: white;
+	border:solid black;
+	width:110px;
+	transform: translate3d(20px, 12px, 0px);
+}
+.Facceso{
+	background: white;
+	border:solid black;
+	width:120px;
+	transform: translate3d(20px, 12px, 0px);
+}
+.Dadjuntados{
+	background: white;
+	border:solid black;
+	width:160px;
+	transform: translate3d(20px, 12px, 0px);
+}
+.titulo{
+	font-size: 30q;
+}
+.horizontal{
+	display:flex;
+}
+.li{
+	transform: translateX(50px);
+}
+.enviar{
+	transform: translateY(30px);
+}
+archivo::file-selector-button{
+	
+}

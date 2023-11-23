@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="CSS.css" rel="stylesheet">
+</head>
+<body>
+	<div class="titulo"><p align="center"><b>HOJA DE INSCRIPCIÓN</b></p></div>
+	<div class="titulo"><p align="center"><b>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</b></p></div>
+	<div class="DatosP">Datos Personales</div>
+<fieldset class="fondogris">
+	<label>
+		<pre class="tamaño">Nombre:			Apellidos:		DNI:
+<input required name="Nombre">	<input required name="Apellidos">	<input required name="DNI">
+
+Localidad de Nacimiento:  Provincia:		Fecha de Nacimiento:
+<input required name="Fecha">	  <select required name="Provincia"><option value="" disabled selected>Obligatorio</option><option value="0">Sevilla</option><option value="1">Huelva</option><option value="2">Cádiz</option><option value="3">Málaga</option><option value="4">Granada</option><option value="5">Córdoba</option><option value="6">Jaén</option><option value="7">Almería</option></select>		<input type="date" required name="FechaN">
+			
+Dirección:					Codigo Postal:
+<textarea rows="1" cols="40" required name="Direccion"></textarea>	<input required name="C.P">
+		</pre>
+	</label>
+</fieldset>
+<div class="Facceso">Forma de Acceso</div>
+<fieldset class="fondonaranja">
+	<label>
+		<ul>
+			<li>Directo:</li>
+				<ul>
+					<li>Bachillerato (Modalidad) <input required name="Bachillerato"></li>
+					<li>FP</li>
+					<li>COU Opción <input required name="COU"></li>
+					<li>Experimental</li>
+					<li>Otros (especifique) <input required name="Otros"></li>
+				</ul>
+			<li>Prueba Libre</li>
+		</ul>
+	</label>
+</fieldset>
+<div class="Dadjuntados">Documenos Adjuntados</div>
+<fieldset class="fondorojo">
+	<label>
+		<ul class="horizontal">
+			<li>Fotocopia DNI</li>
+			<li class="li">Certificado académico</li>
+		</ul>
+		<ul>
+			<li>Otros documentos <input type="file" class="archivo"> <input required name="O.documentos"></li>
+		</ul>
+	</label>
+</fieldset>
+<button class="enviar" type="submit">Enviar Solicitud</button>
+</body>
+</html>
